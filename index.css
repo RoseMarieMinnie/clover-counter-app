@@ -1,0 +1,78 @@
+body {
+    background-image: url("clover-background.jpg");
+    background-size: cover;
+    font-family: 'Ubuntu', Cantarell, Open Sans, Helvetica Neue, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px #344e41;
+    height: 100vh;
+}
+
+.container {
+    background: #6a994e;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid #fefae0;
+    border-radius: 10px;
+
+
+.h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #588157;
+    background-color: #dde5b6;
+    border: 2px solid #386641;
+    border-radius: 10px;
+    box-shadow: #dde5b6 4px 4px 0 0;
+    color: #386641;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 40px;
+}
+
+#increment-btn:hover {
+  background-color: #fff;
+}
+
+#save-btn {
+    background: #ee6055;
+    background-color: #ee6055;
+    border: 2px solid #386641;
+    border-radius: 10px;
+    box-shadow: #ee6055 4px 4px 0 0;
+    color: #whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+#save-btn:hover {
+  background-color: green;
+}
+
